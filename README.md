@@ -10,10 +10,13 @@
 * The small warehouse occasionally adds mainstream proxy software, ssr, passwall, homeproxy, mihomo, etc.
 *
 #### Usage 
-  ```yaml
-Default ssr and passwall plugins and dependency integration package usage: upload the integration package to the tmp directory of the openwrt device, enter the command opkg install *.ipk
+```yaml
+Default ssr and passwall plugins and dependency integration
+Package usage: upload the integration package to the tmp directory of the openwrt device, enter the command opkg install *.ipk
 
-The default compressed package contains ssr passwall bypass passwall2 homeproxy mihomo plugins if Install ssr and dependencies separately, rm -rf {*passwall*,*bypass*,*homeproxy*,*mihomo*}
+The default compressed package contains ssr passwall bypass passwall2 homeproxy mihomo plugins
+if Install ssr and dependencies separately,
+rm -rf {*passwall*,*bypass*,*homeproxy*,*mihomo*}
 ```
 
 * If you like to keep up with the latest, you can download small-package, which is automatically updated every day* [small -package repository address](https://github.com/kenzok8/small-package)
